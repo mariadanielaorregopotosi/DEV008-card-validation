@@ -4,11 +4,35 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
   </head>
-  <body>
+  <body class="contenedor">
     <header></header>
+  <div class="card">
+      <h1>Datos de Usuario Card</h1>  
+</div>
+  <form id="formulario" >
+
+      <label for="numeroTarjeta">Número de tarjeta:</label>
+      <input type="text" id="tarjeta"  maxlength="16" name="tarjeta">
+
+      <label form="fechaExpedicion">Fecha de expedicion:</label>
+      <input type="month" id="fecha" name="fecha"requerida>
+
+      <label for="nombre">Nombre:</label>
+      <input type]="text" id="nombre" name="nombre">
+
+      
+       
+    
+      
+      <button type="submit" id="Button">validar</button>
+
+  </form>
+    <p id="mensaje-validacion"></p>
+  <div id="resultados"></div>
     <main></main>
     <footer></footer>
-    <script src="index.js" type="module"></script>
+  
   </body>
 </html>

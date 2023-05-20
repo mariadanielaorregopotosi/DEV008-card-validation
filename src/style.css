@@ -1,0 +1,72 @@
+*{
+  padding: 7px;
+  margin: 7px;
+  box-sizing: content-box;
+}
+h1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: olivedrab;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: orangered;
+}
+
+#mensaje-validacion {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.contenedor {
+  background-image: url("https://fondosmil.com/fondo/22472.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: pink;
+  border-radius: 10px solid #ccc;
+}
+
+#nombre-mostrado {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 24px;
+  color: white;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+
